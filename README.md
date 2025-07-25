@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- 🎙️ Prepwise – AI-Powered Job Interview Practice Platform
+Prepwise is a modern, responsive web application designed to help job seekers prepare for interviews using AI-powered voice agents and real-time feedback. Built with Next.js, Vapi AI, and Google Gemini, it provides a conversational experience to simulate realistic interview scenarios.
 
-## Getting Started
+✨ Developed as part of the 3MTT DeepTech Fellowship Showcase Submission.
 
-First, run the development server:
+🚀 Tech Stack
 
-```bash
+Framework: Next.js
+Styling: Tailwind CSS + shadcn/ui
+Authentication & Database: Firebase
+AI Tools: Vapi Voice Agents, Google Gemini API
+Deployment: Vercel
+Validation: Zod
+
+📋 Features
+
+🔐 Authentication: Secure sign-in and sign-up with Firebase
+🎤 AI Voice Interviews: Engage in voice-based interviews with Vapi AI agents
+🧠 AI Feedback: Receive real-time, actionable feedback powered by Google Gemini
+📊 Interview History Dashboard: Track and review past interview sessions
+🌐 Responsive UI/UX: Fully responsive design, optimized for mobile and desktop
+🗂️ Codebase Structure: Clean, modular, and scalable architecture
+
+🛠️ Getting Started
+Follow these steps to set up and run the project locally:
+1. Clone the Repository
+git clone https://github.com/your-username/prepwise-ai.git
+cd prepwise-ai
+
+2. Install Dependencies
+npm install
+# or
+yarn install
+
+3. Configure Environment Variables
+Create a .env.local file in the project root and add the following:
+NEXT_PUBLIC_VAPI_WEB_TOKEN=
+NEXT_PUBLIC_VAPI_WORKFLOW_ID=
+GOOGLE_GENERATIVE_AI_API_KEY=
+
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=
+
+FIREBASE_PROJECT_ID=
+FIREBASE_CLIENT_EMAIL=
+FIREBASE_PRIVATE_KEY=
+
+
+Note: Ensure you obtain the necessary API keys from Vapi, Google Gemini, and Firebase.
+
+4. Start the Development Server
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser to view the app.
+🎯 Use Cases
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🎓 Final-year students preparing for job interviews
+🧑‍💼 Young professionals seeking interview coaching
+👥 Bootcamps or job readiness programs
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📸 Screenshots
 
-## Learn More
+Add screenshots of the application here to showcase the UI/UX.
 
-To learn more about Next.js, take a look at the following resources:
+📦 Deployment
+This project is deployed using Vercel. To deploy your own version:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Push your repository to GitHub.
+Connect your repository to Vercel via the Vercel dashboard.
+Configure environment variables in Vercel.
+Deploy the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+💡 Learn More
 
-## Deploy on Vercel
+Next.js Documentation
+Vapi AI Documentation
+Firebase Documentation
+Google Gemini API Documentation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🏆 3MTT Submission
+This project was submitted to the 3MTT Nigeria DeepTech Showcase under the AI-Powered Solution category.
+Submission Details:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🎥 3-minute video demo
+🔗 GitHub Repository
+🌍 Live Demo
+Fellow Name: Emmanuel Clinton
+Fellow ID: [Insert ID]
+Hashtags: #3MTTLearningCommunity #My3MTT
+Tag: @3MTTNigeria
+
+📄 License
+This project is licensed under the MIT License. -->
